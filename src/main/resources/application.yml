@@ -1,0 +1,27 @@
+#server:
+#  port: 9090
+#  context-path: /helloboot
+
+book:
+  name: spring boot
+  author: hantas
+
+author:
+  name: hantas
+  age: 20
+
+logging:
+  file: D:/mylog/log.log
+  level: debug
+
+spring:
+  profiles:
+    active: prod
+
+debug: true
+
+#hello:
+#  msg: hantas
+
+
+
